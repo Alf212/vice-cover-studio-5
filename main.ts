@@ -38,3 +38,7 @@ writeFileSync(
     app_path_max_bytes: 1000,
   }),
 );
+
+// Vice Cover Studio (round 4): the app is the multi-panel cover maker in app/ —
+// say where the handover went so a local run is easy to confirm.
+console.log('vice-cover-studio: app, screenshots and dossier.json written to ' + out);
